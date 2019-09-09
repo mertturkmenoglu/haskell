@@ -1,4 +1,4 @@
-factorial :: Int -> Int
+factorial :: Integer -> Integer
 factorial 0 = 1
 factorial n = n * factorial (n - 1)
 
@@ -8,10 +8,10 @@ factorial' n = product [1..n]
 main = do
     putStrLn "Please enter n: "
     inp <- getLine
-    let n = read inp :: Int
+    let n = read inp :: Integer
     
     let result = factorial n
-    putStrLn ("Result: " ++ show result)
+    putStrLn $ "Result: " ++ show result
 
     let result2 = factorial' n
-    print (result2)
+    putStrLn $ "Result: " ++ show result2
