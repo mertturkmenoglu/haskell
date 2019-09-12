@@ -6,7 +6,7 @@
 # Description
 * This repository contains my **Haskell** language example codes.
 * Official Kotlin website: https://www.haskell.org/
-* See the LICENSE file for details.
+* See the **LICENSE** file for details.
 * You need to install **Haskell Platform** to your system. Please follow the [original source].
 # Resources For Learning Haskell
 * https://www.schoolofhaskell.com/
@@ -22,9 +22,9 @@
 * http://www.sthaskell.com/
 # Build
 #### Tools Required
-* Haskell Platform
-* Stack
-* Any text editor(VSCode, Vim, Emacs, Atom, ...)
+* **Haskell Platform**
+* **Stack**
+* Any **text editor**(**VSCode**, Vim, Emacs, Atom, ...)
 #### Setup
 * You need **Haskell** on your system.
 * **Fork** and **clone** the repository:
@@ -35,6 +35,9 @@
 * Write `ghci` and press enter.
 * `:l fileName.hs`
 * `:r`
+### Compiling
+* If you are using **Stack**: `stack runhaskell ./main.hs`
+* If you are using **GHC**: `ghc main.hs`
 # Contributing
 * Fork and clone the repository.
 * Follow the steps under the build chapter.
