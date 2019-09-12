@@ -9,7 +9,17 @@
 * See the LICENSE file for details.
 * You need to install **Haskell Platform** to your system. Please follow the [original source].
 # Resources For Learning Haskell
-* This part will be updated.
+* https://www.schoolofhaskell.com/
+* http://www.haskellforall.com/
+* https://learnxinyminutes.com/docs/haskell/
+* http://www.happylearnhaskelltutorial.com/contents.html
+* http://book.realworldhaskell.org/
+* https://www.tutorialspoint.com/haskell/index.htm
+* http://learnyouahaskell.com/chapters
+* http://www.newthinktank.com/2015/08/learn-haskell-one-video/
+* https://chercher.tech/haskell/haskell-tutorial
+* https://andre.tips/wmh/
+* http://www.sthaskell.com/
 # Build
 #### Tools Required
 * Haskell Platform
