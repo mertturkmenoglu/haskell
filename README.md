@@ -20,6 +20,7 @@
 * https://chercher.tech/haskell/haskell-tutorial
 * https://andre.tips/wmh/
 * http://www.sthaskell.com/
+* http://learn.hfm.io/
 # Build
 #### Tools Required
 * **Haskell Platform**
