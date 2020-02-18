@@ -7,5 +7,5 @@ import Data.List
 isNarcissistic :: Int -> Bool
 isNarcissistic n = n == (sum $ map (^ len) digits)
     where 
-        digits = map (\x -> read x::Int) $ words $ intersperse ' ' (show n)
+        digits = map (read :: String -> Int) $ words $ intersperse ' ' (show n)
         len = length digits
